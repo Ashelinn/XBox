@@ -179,31 +179,17 @@ nav .nav_submenu a:hover {
   padding-left: 0px;
 }
 
-/*.carousel-control-next-icon {
-  background-image: url(../img/icon-next.svg);
-}
-
-.carousel-control-prev-icon {
-  background-image: url(../img/icon-prev.svg);
-}*/
-
-.slide_content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+.slide-content {
   position: absolute;
   top: 200px;
-  right: 280px;
+  right: 220px;
+  z-index: 50;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
 }
+
 
 #slide_buttons button {
   margin-top: 134px;
@@ -219,7 +205,6 @@ nav .nav_submenu a:hover {
 #bestvalue {
   padding-top: 64px;
   padding-bottom: 160px;
-  /*background: -webkit-gradient(linear, left top, left bottom, from(#686C6F), color-stop(90%, #373A3C), to(#373A3C));*/
   background: linear-gradient(180deg, #686C6F, #373A3C 90%, #373A3C);
 }
 
@@ -290,9 +275,6 @@ nav .nav_submenu a:hover {
   min-height: 750px;
   padding-top: 96px;
   padding-bottom: 140px;
- /* background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../img/rectangle.jpg") no-repeat;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/rectangle.jpg") no-repeat;*/
-  /*background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5)));*/
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   background-size: cover;
 }
@@ -362,7 +344,6 @@ nav .nav_submenu a:hover {
 #design {
   padding-top: 114px;
   padding-bottom: 146px;
-  /*background: url("../img/design.jpg") no-repeat;*/
   background-size: cover;
 }
 
@@ -376,6 +357,7 @@ nav .nav_submenu a:hover {
 }
 
 .design_text {
+  width: 480px;
   color: #FFF;
   font-size: 24px;
 }
