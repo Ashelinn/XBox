@@ -1,0 +1,62 @@
+$green: #8DD83D
+$dark_gray: #373A3C
+$light_gray: #777
+$gray: #686C6F
+$white: #FFF
+$black: #435766
+
+$h1_size: 48px
+$h2_size: 36px
+$h3_size: 24px
+$h4_text: 18px
+$big_text: 21px
+$small_text: 14px
+$main_text: 16px
+
+%button-base
+    padding: 20px 24px
+    color: $white
+    text-align: center
+    border: 1px solid $green
+    border-radius: 4px
+    outline: none
+
+.button_green  
+    background-color: $green 
+
+    &:hover
+        background-color: darken($green,10%) 
+
+.button_gray
+    background-color: $gray 
+
+    &:hover
+        background-color: darken($gray,10%) 
+    
+
+body
+    font-family: 'HelveticaNeueCyr', sans-serif
+    font-size: $main_text
+    color: $black
+
+h1, h2, h3 
+    color: $white
+
+h1
+    font-size: $h1_size
+
+h2 
+    font-size: $h2_size
+
+h3
+    font-size: $h3_size
+
+h4
+    font-size: $h4_text
+
+@import "_header.sass";
+@import "_carousel.sass";
+@import "_bestvalue.sass";
+@import "_exclusive.sass";
+@import "_designlab.sass";
+@import "_footer.sass";

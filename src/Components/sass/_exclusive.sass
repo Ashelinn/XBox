@@ -1,0 +1,42 @@
+#exclusive
+    min-height: 750px
+    padding:
+        top: 96px
+        bottom: 140px
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))
+        size: cover
+    
+.exclusive_header 
+    display: flex
+    flex-wrap: nowrap
+    justify-content: space-between
+    max-width: 1000px
+    margin: 0px auto 54px
+    text-align: center 
+
+.exlusive_title
+    flex-grow: 2
+    text-align: center
+
+.exclusive_arrow
+    flex-grow: 0
+    cursor: pointer
+
+.exclusive_main
+    display: flex
+    justify-content: center
+    max-width: 1000px
+    margin: auto
+    .card
+        &:hover
+            transform: scale(1.1,1.1)
+
+.exlusive_button
+    display: flex
+    justify-content: center
+    .button_gray
+        @extend %button-base
+        margin-top: 60px
+        padding: 20px 58px
+        border: none
+
