@@ -1,0 +1,151 @@
+{
+    "games": [
+        {
+            "name": "Star Wars",
+            "subtitle": "Battlefront II",
+            "description": "A network shooter created on the Frostbite 3 game engine with the basis of the plot of the 'Star Wars' movie",
+            "cover": "https://i.playground.ru/p/0lTmuCSf7TSHZSb5PZjnRw.jpeg",
+            "video": "https://youtu.be/e4tS8rIIVRE",
+            "oneimg": "https://avatars.mds.yandex.net/get-zen_doc/3488488/pub_6000b2a3dc0ac42b28a77095_6000b39495bba40a1dd437bb/scale_1200",
+            "twoimg": "https://i.ytimg.com/vi/mqM-dsui910/maxresdefault.jpg"
+        },
+        {
+            "name": "Call of Duty: WWII",
+            "subtitle": "Released on: 23/11/17",
+            "description": "a military first-person shooter set in the period from 1944 to 1945",
+            "cover": "https://www.playstationinfo.de/wp-content/uploads/2017/08/Call_of_Duty_WWII_Screen_12.jpg",
+            "video": "https://youtu.be/nKuQwlbqTGk",
+            "oneimg": "https://www.digiseller.ru/preview/994291/p1_3106235_7de62af7.jpg",
+            "twoimg": "https://i.ytimg.com/vi/99CkqVRLQVk/maxresdefault.jpg"
+        },
+        {
+            "name": "The Witcher 3",
+            "subtitle": "Wild hunt",
+            "description": "multiplatform computer role-playing game developed by the Polish company CD Projekt RED",
+            "cover": "https://specialgamesclub.ru/wp-content/uploads/2019/05/The-Witcher-3-Game-Logo.jpg",
+            "video": "https://youtu.be/2bSk-8C76dc",
+            "oneimg": "https://www.digiseller.ru/preview/907830/p1_3090028_f385974e.jpg",
+            "twoimg": "https://www.digiseller.ru/preview/575395/p1_2476657_ec054625.jpg"
+        },
+        {
+            "name": "The Elder Scrolls V",
+            "subtitle": "Skyrim",
+            "description": "An Action RPG computer game released by Bethesda Softworks",
+            "cover": "https://i.ytimg.com/vi/0Xa94jm6a7k/maxresdefault.jpg",
+            "video": "https://youtu.be/9jSxWFX4l6w",
+            "oneimg": "https://i.playground.ru/p/VhVI2xl5CsGdo_AUdkuaWQ.png",
+            "twoimg": "https://i.ytimg.com/vi/8vytVj-Eebo/maxresdefault.jpg"
+        },
+        {
+            "name": "Tomb Raider",
+            "subtitle": "Shadow of the Tomb Raider",
+            "description": "A cross-platform action adventure game developed by Crystal Dynamics",
+            "cover": "https://cq-esports.com/storage/uploads/games/1100595/1.jpg",
+            "video": "https://youtu.be/sAh36qL_bJ0",
+            "oneimg": "https://steamuserimages-a.akamaihd.net/ugc/2441390926336384471/3C917D7C922C20FAA81DD18F81AA956D2C2452A5/?imw=512&amp;imh=288&amp;ima=fit&amp;impolicy=Letterbox&amp;imcolor=%23000000&amp;letterbox=true",
+            "twoimg": "https://game-pass.ru/wp-content/uploads/2018/05/motto.net_.ua-89075-1024x768.jpg"
+        },
+        {
+            "name": "God of War III",
+            "subtitle": "Ragnarok",
+            "description": "The third part of the bloody adventures of Kratos in the setting of Ancient Greece",
+            "cover": "https://gamepark.by/wp-content/uploads/2021/02/ps-exclusive10.jpg",
+            "video": "https://youtu.be/6LOD-pwJY6E",
+            "oneimg": "https://i.playground.ru/p/CZ-ibXhteUUQl-xZWT4dXA.jpeg",
+            "twoimg": "https://cdn.shazoo.ru/555191_xQiR3I7ZSn_sha67sgbzoo_title.jpg"
+        },
+        {
+            "name": "BioShock II",
+            "subtitle": "Infinite",
+            "description": "Fantastic first-person shooter with RPG elements",
+            "cover": "https://i.ytimg.com/vi/lsHCiM6S2f4/maxresdefault.jpg",
+            "video": "https://youtu.be/PsqD6W818CA",
+            "oneimg": "https://images5.alphacoders.com/389/thumb-1920-389207.jpg",
+            "twoimg": "https://i.playground.ru/i/pix/1795674/image.jpg"
+        },
+        {
+            "name": "Rocket League",
+            "subtitle": "Hot Wheels RC",
+            "description": "Racing simulator with elements of football",
+            "cover": "http://inarena.ru/wp-content/uploads/2019/08/Fotochka_2.jpg",
+            "video": "https://youtu.be/rcDbCrAayVU",
+            "oneimg": "https://i.playground.ru/p/vwgFRSMSs0eOi5h9U4Rw4g.jpeg",
+            "twoimg": "https://gamerskey.ru/wp-content/uploads/2019/06/ss_96afed264cd8e9ccccb284f9491a8b2f33d211ea.1920x1080.jpg"
+        },
+        {
+            "name": "Rogue Company",
+            "subtitle": "",
+            "description": "This is a multiplayer PvP shooter with a third-person view",
+            "cover": "https://www.theloadout.com/wp-content/uploads/2021/03/rogue-company-cross-play-cross-progression.jpg",
+            "video": "https://youtu.be/cwLbCWDntVc",
+            "oneimg": "https://mocah.org/uploads/posts/341370-Rogue-Company-Video-Game-Lancer.jpg",
+            "twoimg": "https://wallpapercave.com/wp/wp7040374.jpg"
+        },
+        {
+            "name": "Elden ring",
+            "subtitle": "Release on: 21/01/2022",
+            "description": "action, role-playing game, open world by FromSoftware",
+            "cover": "https://i2.wp.com/i.redd.it/wke909f77hw31.jpg",
+            "video": "https://youtu.be/kDBZ5RXNu3g",
+            "oneimg": "https://pbs.twimg.com/media/ErczY4EXIAAJz-Z.jpg",
+            "twoimg": "https://i.playground.ru/p/b2DusGxamyogKOktgEtbRw.jpeg"
+        },
+        {
+            "name": "ELEX II",
+            "subtitle": "Release on: 01/03/2022",
+            "description": "action, RPG, adventure from Piranha Bytes studio",
+            "cover": "https://100pristavok.ru/upload/iblock/264/2647200b093f4f79801dc45abd5ddc1a.png",
+            "video": "https://youtu.be/Dg09LJky-bw",
+            "oneimg": "https://vgtimes.ru/uploads/gallery/main/181713/elex-2_20210615_08.jpg",
+            "twoimg": "https://vgtimes.ru/uploads/gallery/main/181713/elex-2_20210615_13.jpg"
+        },
+        {
+            "name": "Assassin's Creed 4",
+            "subtitle": "Black flag",
+            "description": "a multiplatform action adventure game",
+            "cover": "https://piterplay.com/image/catalog/kupit-ac4blackflag-x3601.jpg",
+            "video": "https://youtu.be/KiRxHvToODA",
+            "oneimg": "https://kg-portal.ru/img/39708/39708_big.jpg",
+            "twoimg": "https://img.zoneofgames.ru/screens/3271/17.jpg"
+        }
+    ],
+
+    "acsessorise": [
+        {
+            "cover": "https://compass-ssl.xbox.com/assets/70/f2/70f2d15d-e1b3-4719-a3bb-46dcf76d3b26.jpg?n=Accessories-Hub_Content-Placement-0_999482_788x444.jpg",
+            "name": "Карта расширения памяти Seagate для Xbox Series X|S",
+            "price": "",
+            "description": "Карта расширения памяти Seagate для Xbox Series X | S"
+        },
+        {
+            "cover": "https://compass-ssl.xbox.com/assets/61/ef/61ef337d-7dda-4fe2-ac76-af0eacb186f1.jpg?n=Accessories-Hub_Content-Placement-0_2020-Controller-Blue_788x444.jpg",
+            "name": "Беспроводной геймпад Xbox",
+            "price": "4399,00 ₽",
+            "description": "Триггеры и бамперы с текстурированной поверхностью I Гибридная крестовина I Назначение кнопок I Технология Bluetooth"
+        },
+        {
+            "cover": "https://compass-ssl.xbox.com/assets/cc/c4/ccc41c55-2d69-450b-ae14-8f530f39481f.jpg?n=Accessories-Hub_Content-Placement-0_7701441_788x444.jpg",
+            "name": "8BitDo SN30 Pro",
+            "price": "5800 ₽",
+            "description": "Включает профессиональное крепление для телефона I поддержка Ultimate Software I Bluetooth-геймпад I аккумулятор на 18 часов работы"
+        },
+        {
+            "cover": "https://compass-ssl.xbox.com/assets/30/bf/30bfe703-4500-496e-a7ab-37dff52408b7.jpg?n=Accessories-Hub_Content-Placement-0_00496832_788x444.jpg",
+            "name": "Беспроводной геймпад Xbox ограниченной серии Forza Horizon 5",
+            "price": "6399,00 ₽",
+            "description": "Курки и бамперы с текстурированной поверхностью I Гибридная крестовина I Назначение кнопок I Технология Bluetooth"
+        },
+        {
+            "cover": "https://compass-ssl.xbox.com/assets/67/84/6784e5e5-49f8-4785-bf38-3bf5db0a5b29.jpg?n=Accessories-Hub_Content-Placement-0_300350_788x444.jpg",
+            "name": "Стереогарнитура Xbox",
+            "price": "5399 ₽",
+            "description": "Комфортная эргономика I Универсальное крепление I Легкая и гибкая"
+        },
+        {
+            "cover": "https://compass-ssl.xbox.com/assets/a7/c7/a7c7333f-db2c-4ff9-a354-6f253788da61.jpg?n=Accessories-Hub_Content-Placement-0_090234_788x444.jpg",
+            "name": "Аккумуляторная батарея Xbox и кабель USB-C",
+            "price": "1799,00 ₽",
+            "description": "Заряжается во время игры I Полная зарядка – 4 часа"
+        }
+    ]
+}
