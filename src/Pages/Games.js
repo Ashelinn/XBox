@@ -1,14 +1,34 @@
-import React, {Component} from 'react';
+import React from 'react';
+import data from '../bdgames.json';
 
-export default class Games extends Component {
-    render() {
-        return(
-            <div>
-                <h2>Games page</h2>
-                <p>
-                Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации "Здесь ваш текст.. Здесь ваш текст.. Здесь ваш текст.." Многие программы электронной вёрстки и редакторы HTML используют Lorem Ipsum в качестве текста по умолчанию, так что поиск по ключевым словам "lorem ipsum" сразу показывает, как много веб-страниц всё ещё дожидаются своего настоящего рождения. За прошедшие годы текст Lorem Ipsum получил много версий. Некоторые версии появились по ошибке, некоторые - намеренно (например, юмористические варианты).
-                </p>
-            </div>
-        )
-    }
+export default function Games () {
+    let games = data.games;
+    return (
+        <>
+        <div className="page-container">
+                <h2 className="page-title">Consoles Games</h2>
+                <div className="page-cardContainer">
+                    {
+                        Object.keys(games).map((el) => {
+                            return (
+                                <div className="card">
+                                    <div className="card-img">
+                                        <img src={games[el].cover} alt={games[el].name}/>
+                                    </div>
+                                    <div className="card-textcontent">
+                                        <h3>{games[el].name}</h3>
+                                        <h4>{games[el].subtitle}</h4>
+                                    </div>
+                                    <div className="exclusive_button">
+                                        <button className="button_green card_button">Show details</button>
+                                    </div>
+                                </div>
+                            )
+                        })
+                    }
+                </div>
+                
+        </div>
+        </>
+    )
 }
