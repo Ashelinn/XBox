@@ -1,7 +1,9 @@
 import React, {Component} from 'react';
-import Instagram from '../assets/Instagram.svg';
-import Facebook from '../assets/Faacebook.svg';
-import Twitter from '../assets/Twitter.svg';
+
+//Импорт изображений
+import Instagram from '../assets/images/icons/Instagram.svg';
+import Facebook from '../assets/images/icons/Faacebook.svg';
+import Twitter from '../assets/images/icons/Twitter.svg';
 
 
 export default class Footer extends Component {

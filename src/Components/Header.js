@@ -1,16 +1,16 @@
 import React, {Component} from 'react';
 import {Form, FormControl} from 'react-bootstrap';
+import {NavLink, Link} from "react-router-dom";
 
 //подключение стилей
-import './css/fonts.css';
-import './css/main.css';
+import '../assets/css/fonts.css';
+import '../assets/css/main.css';
 
 //подключение картинок
-import logo from './img/xbox_logo.svg';
-import user_logo from './img/user.svg';
-import drop from './img/drop.svg';
+import logo from '../assets/images/icons/xbox_logo.svg';
+import user_logo from '../assets/images/icons/user.svg';
+import drop from '../assets/images/icons/drop.svg';
 
-import {Link} from "react-router-dom";
 
 //верхнее меню сайта
 export default class Header extends Component {
@@ -18,31 +18,30 @@ export default class Header extends Component {
         return(
                 <header>
                     <div className="header_logo">
-                        <Link to="/">
+                        <Link to="/" exact>
                             <img src={logo} alt="XBOX logo"/>
                         </Link>
                     </div>
                     <nav>
-                        <ul className="nav_topmenu">
-                            <li><Link to="/games" className="drop">Games <img src={drop} alt="drop"/></Link>
+                        <ul className="nav__topmenu">
+                            <li> <a href="#" className="drop">Games <img src={drop} alt="drop"/> </a>
                                 <div className="dropdown">                                 
-                                    <ul className="nav_submenu">
-                                        <li><a href="/console_games">Console Games</a></li>
-                                        <li><a href="/buy_console">Buy console</a></li>
-                                        <li><a href="/all_games">All Games</a></li>
+                                    <ul className="nav__submenu">
+                                        <li><NavLink to="/games">Console Games</NavLink></li>
+                                        <li><NavLink to="/games">PC Games</NavLink></li>
                                     </ul>
                                 </div>
                             </li>
-                            <li><Link to="/consoles" className="drop">Consoles <img src={drop} alt="drop"/></Link>
+                            <li><a href="#" className="drop">Consoles <img src={drop} alt="drop"/></a>
                                 <div className="dropdown">
-                                    <ul className="nav_submenu">
-                                        <li><a href="/xbox_console">xbox console</a></li>
-                                        <li><a href="/pc_games">PC Games</a></li>
+                                    <ul className="nav__submenu">
+                                        <li><NavLink to="/details">Explore Games</NavLink></li>
+                                        <li><NavLink to={{pathname:'/consoles', hash: 'blockd'}}>PC Games</NavLink></li>
                                         <li><a href="/accessories">Accessories</a></li>
                                     </ul>
                                 </div>
                             </li>
-                            <li><Link to="/community">Community <img src={drop} alt="drop"/></Link></li>
+                            <li><NavLink to="/community" exact>Community</NavLink></li>
                         </ul>
                         
                         <div className="header_serch">
@@ -53,10 +52,10 @@ export default class Header extends Component {
                         
                         <div className="header_login">
                             <img src={user_logo} alt="icon user"/>
-                            <ul className="nav_topmenu">
+                            <ul className="nav__topmenu">
                                 <li><a href="/my_box" className="drop">My Xbox <img src={drop} alt="drop"/></a>
                                     <div className="dropdown">
-                                        <ul className="nav_submenu">
+                                        <ul className="nav__submenu">
                                             <li><a href="/register">Register</a></li>
                                             <li><a href="/login">Login</a></li>
                                         </ul>
