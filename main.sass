@@ -1,0 +1,108 @@
+$green: #8DD83D
+$dark_gray: #373A3C
+$light_gray: #777
+$gray: #686C6F
+$white: #FFF
+$black: #435766
+
+$h1_size: 48px
+$h2_size: 36px
+$h3_size: 24px
+$h4_text: 18px
+$big_text: 21px
+$small_text: 14px
+$main_text: 16px
+
+%button-base
+    padding: 20px 24px
+    color: $white
+    text-align: center
+    text-decoration: none
+    border-radius: 4px
+    outline: none
+    border: none
+    cursor: pointer
+
+.button_green  
+    @extend %button-base
+    background-color: $green 
+
+    &:hover
+        background-color: darken($green,10%) 
+
+.button_gray
+    @extend %button-base
+    background-color: $gray 
+
+    &:hover
+        background-color: darken($gray,10%) 
+    
+
+body
+    font-family: 'HelveticaNeueCyr', sans-serif
+    font-size: $main_text
+    color: $black
+
+h1, h2, h3, h4 
+    color: $white
+
+h1
+    font-size: $h1_size
+
+h2 
+    font-size: $h2_size
+
+h3
+    font-size: $h3_size
+
+h4
+    font-size: $h4_text
+
+.page-container
+    width: 1200px
+    margin: 0 auto
+
+.card-container
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+
+.card
+    display: flex
+    flex:
+        direction: column
+        basis: 320px
+        grow: 1
+        shrink: 0
+    justify-content: space-between
+    margin: 0px 30px
+    border: 1px solid $green
+        radius: 4px
+
+    &__img
+        img
+            display: block
+            width: 100%
+
+    &__content
+        padding: 22px 22px 36px
+
+    &__title
+        color: $black
+        font-size: 18px
+
+    &__text
+        font-size: $h3_size
+
+    button
+        margin: 0 20px 28px
+
+.rmargin-15
+    margin-right: 15px
+
+@import "_header.sass";
+@import "_carousel.sass";
+@import "_bestvalue.sass";
+@import "_exclusive.sass";
+@import "_designlab.sass";
+@import "_footer.sass";
