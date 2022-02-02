@@ -141,10 +141,10 @@ export default function Home () {
                     Design section 
                 ------------------------------------------------------- */}
                 <section id="design" style={bgDesign.fn}>
-                    <div className="design_container">
-                        <h2 className="design_title">Xbox Design Lab</h2>
-                        <p className="design_text">Make yours one in a billion with new colors, metallic finishes and rubberized grips.</p>
-                        <div className="design_buttons">
+                    <div className="page-container">
+                        <h2 className="design__title">Xbox Design Lab</h2>
+                        <p className="design__text">Make yours one in a billion with new colors, metallic finishes and rubberized grips.</p>
+                        <div className="design__buttons">
                             <button className="button_gray">Design Yours</button>
                             <button className="button_green">Explore Consoles &#38; Accessories</button>
                         </div>

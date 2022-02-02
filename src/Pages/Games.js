@@ -7,25 +7,26 @@ export default function Games () {
         <>
         <div className="page-container">
                 <h2 className="page-title">Consoles Games</h2>
-                <div className="page-cardContainer">
+                <div className="page-container">
+
+                <div className="card-container">
                     {
                         Object.keys(games).map((el) => {
                             return (
                                 <div className="card">
-                                    <div className="card-img">
+                                    <div className="card__img">
                                         <img src={games[el].cover} alt={games[el].name}/>
                                     </div>
-                                    <div className="card-textcontent">
+                                    <div className="card__content">
                                         <h3>{games[el].name}</h3>
                                         <h4>{games[el].subtitle}</h4>
                                     </div>
-                                    <div className="exclusive_button">
-                                        <button className="button_green card_button">Show details</button>
-                                    </div>
+                                        <button className="button_green">Show details</button>
                                 </div>
                             )
                         })
                     }
+                    </div>
                 </div>
                 
         </div>
