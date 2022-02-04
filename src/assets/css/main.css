@@ -27,8 +27,8 @@
 
 body {
   font-family: 'HelveticaNeueCyr', sans-serif;
-  font-size: 16px;
-  color: #435766;
+  font-size: 18px;
+  color: #252627;
 }
 
 h1, h2, h3, h4 {
@@ -48,7 +48,7 @@ h3 {
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .page-container {
@@ -90,17 +90,33 @@ h4 {
   border-radius: 4px;
 }
 
+.card__img {
+  height: 190px;
+  overflow: hidden;
+}
+
 .card__img img {
   display: block;
   width: 100%;
 }
 
 .card__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   padding: 22px 22px 36px;
+  margin: 0;
 }
 
 .card__title {
-  color: #435766;
+  color: #252627;
   font-size: 18px;
 }
 
@@ -114,6 +130,40 @@ h4 {
 
 .rmargin-15 {
   margin-right: 15px;
+}
+
+.dark-fon {
+  background-color: #777;
+  margin-bottom: 60px;
+}
+
+.white-text {
+  color: #FFF;
+}
+
+.page-title {
+  margin: 60px 0px;
+  color: #373A3C;
+  text-align: center;
+}
+
+.dark-text {
+  color: #252627;
+}
+
+.container-margins {
+  margin: 40px 0px;
+}
+
+.bmargin-80 {
+  margin-bottom: 100px;
+}
+
+.price-text {
+  font-weight: bold;
+  font-size: 24px;
+  color: #8DD83D;
+  margin-top: 30px;
 }
 
 header {
@@ -312,7 +362,7 @@ nav .nav__submenu a:hover {
 
 .modal__title {
   margin-bottom: 20px;
-  color: #435766;
+  color: #252627;
   font-size: 20px;
 }
 
@@ -483,4 +533,173 @@ footer {
   margin: auto;
   padding-top: 20px;
   color: #FFF;
+}
+
+.mainImage {
+  width: 100%;
+  height: 830px;
+  background-size: 100%;
+  overflow: hidden;
+}
+
+.mainImage_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 89px;
+}
+
+.mainImage_content p {
+  color: #FFF;
+  font-size: 14px;
+  margin-top: -5px;
+}
+
+.bgfon {
+  background: radial-gradient(100% 100% at 50% 0%, rgba(76, 80, 82, 0.1) 0%, rgba(95, 98, 101, 0.1) 100%);
+}
+
+.left-65 {
+  width: 65%;
+}
+
+.mainImage_buttons {
+  margin-top: 139px;
+}
+
+.mainImage_buttons button {
+  margin-right: 14px;
+  padding: 9px 29px;
+}
+
+.trailer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 100px;
+}
+
+.trailer_title {
+  color: #252627;
+}
+
+.trailer_buttons {
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+.trailer_buttons .button_green {
+  padding: 14px 40px 18px;
+}
+
+.trailer_buttons .button_gray {
+  padding: 14px 22px 18px;
+}
+
+.trailer_video {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.stills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1400px;
+  margin: auto;
+}
+
+.stills_line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 80px;
+  width: 100%;
+}
+
+.stills_text {
+  margin-top: 20px;
+  width: 420px;
+  font-size: 36px;
+  color: #252627;
+}
+
+.left-200 {
+  margin-left: 200px;
+}
+
+.right-200 {
+  margin-right: 200px;
+}
+
+.specifications h2 {
+  margin: 80px 0px 46px;
+  color: #252627;
+  text-align: center;
+}
+
+.specifications_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 1150px;
+  margin: 0px auto;
+}
+
+.specifications_text {
+  -ms-flex-preferred-size: 320px;
+      flex-basis: 320px;
+  margin-right: 64px;
+  margin-bottom: 20px;
+  font-size: 21px;
+  color: #252627;
+}
+
+.specifications_text:nth-of-type(3) {
+  margin-right: 0px;
+}
+
+.specifications_text:nth-of-type(6) {
+  margin-right: 0px;
+}
+
+.specifications_buttons {
+  padding: 70px 0px 110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.specifications_buttons .button_green {
+  padding: 13px 53px 18px;
+  margin-right: 16px;
+}
+
+.specifications_buttons .button_gray {
+  padding: 13px 20px 18px;
 }
