@@ -27,17 +27,16 @@ export default class Header extends Component {
                             <li> <a href="#" className="drop">Games <img src={drop} alt="drop"/> </a>
                                 <div className="dropdown">                                 
                                     <ul className="nav__submenu">
-                                        <li><NavLink to="/games">Console Games</NavLink></li>
-                                        <li><NavLink to="/games">PC Games</NavLink></li>
+                                        <li><NavLink to="/consolegames">Console Games</NavLink></li>
+                                        <li><NavLink to="/pcgames">PC Games</NavLink></li>
                                     </ul>
                                 </div>
                             </li>
                             <li><a href="#" className="drop">Consoles <img src={drop} alt="drop"/></a>
                                 <div className="dropdown">
                                     <ul className="nav__submenu">
-                                        <li><NavLink to="/details">Explore Games</NavLink></li>
-                                        <li><NavLink to={{pathname:'/consoles', hash: 'blockd'}}>PC Games</NavLink></li>
-                                        <li><a href="/accessories">Accessories</a></li>
+                                        <li><NavLink to="/consoles">Explore Games</NavLink></li>
+                                        <li><NavLink to="/accessories">Accessories</NavLink></li>
                                     </ul>
                                 </div>
                             </li>

@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 
 //Подключение изображений
 import StarWars from '../assets/images/StarWars.jpg';
@@ -20,8 +20,8 @@ export default class CarouselBox extends Component {
                             <h2>Star Wars</h2>
                             <h3>Battlefront II</h3>
                             <div className="slide__buttons">
-                                <a className="button_green rmargin-15">Watch Trailer</a>
-                                <a className="button_gray">Explore Games</a>
+                                <NavLink to="/details" className="button_green rmargin-15">Watch Trailer</NavLink>
+                                <NavLink to="/consoles" className="button_gray">Explore Games</NavLink>
                             </div>
                         </div>  
                     </div>
