@@ -3,15 +3,15 @@ $dark_gray: #373A3C
 $light_gray: #777
 $gray: #686C6F
 $white: #FFF
-$black: #435766
+$black: #252627
 
 $h1_size: 48px
 $h2_size: 36px
 $h3_size: 24px
-$h4_text: 18px
+$h4_text: 20px
 $big_text: 21px
 $small_text: 14px
-$main_text: 16px
+$main_text: 18px
 
 %button-base
     padding: 20px 24px
@@ -80,12 +80,19 @@ h4
         radius: 4px
 
     &__img
+        height: 190px
+        overflow: hidden
+
         img
             display: block
             width: 100%
 
     &__content
+        display: flex
+        flex-direction: column
+        justify-content: flex-start
         padding: 22px 22px 36px
+        margin: 0
 
     &__title
         color: $black
@@ -100,9 +107,38 @@ h4
 .rmargin-15
     margin-right: 15px
 
+.dark-fon
+    background-color: $light_gray
+    margin-bottom: 60px
+
+.white-text
+    color: $white
+
+.page-title
+    margin: 60px 0px
+    color: $dark_gray
+    text-align: center
+
+.dark-text
+    color: $black
+
+.container-margins
+    margin: 40px 0px
+
+.bmargin-80
+    margin-bottom: 100px
+
+.price-text
+    font-weight: bold
+    font-size: $h3_size
+    color: $green
+    margin-top: 30px
+
+
 @import "_header.sass";
 @import "_carousel.sass";
 @import "_bestvalue.sass";
 @import "_exclusive.sass";
 @import "_designlab.sass";
 @import "_footer.sass";
+@import "_detailspage.sass";
