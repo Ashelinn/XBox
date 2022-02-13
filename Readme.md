@@ -1,6 +1,6 @@
 # XBox
 <ul>
-  <li>Сайт про XBOX на React</li>
+  <li>Сайт про XBOX на React. Ссылка на Github Pages - https://ashelinn.github.io/XBox/</li>
   <li>Ссылка на макет Figma: https://www.figma.com/file/ykE2koNH98kf6AHQpaXAKi/xbox (взят с сайта https://blog.maxgraph.ru/besplatnye-makety-figma-dlya-verstki-sajta-2/)</li>
 </ul>
   
