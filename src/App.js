@@ -5,10 +5,17 @@ import Footer from './Components/Footer';
 
 //роутинг
 import {BrowserRouter, Route, Routes} from "react-router-dom";
-import Home from './Pages/Home.js';
-import Consoles from './Pages/Consoles.js';
-import Games from './Pages/Games.js';
-import Community from './Pages/Community.js';
+import Home from './Pages/Home';
+import Consoles from './Pages/Consoles';
+import Games from './Pages/Games';
+import Community from './Pages/Community';
+import Details from './Pages/Details';
+import Acsessorise from './Pages/Acsessorise';
+import Register from './Pages/Register';
+import Login from './Pages/Login';
+
+import data from './bdgames.json';
+
 
 function App() {
   return (
@@ -16,9 +23,15 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" exact element={<Home/>} />
-        <Route path="/games" exact element={<Games/>} />
+        <Route path="/XBox" exact element={<Home/>} />
+        <Route path="/pcgames" exact element={<Games games = {data.games} title = 'PC Games' />} />
+        <Route path="/consolegames" exact element={<Games games = {data.consolegames} title = 'Console Games' />} />
         <Route path="/consoles" exact element={<Consoles/>} />
         <Route path="/community" exact element={<Community/>} />
+        <Route path="/details" exact element={<Details/>} />
+        <Route path="/accessories" exact element={<Acsessorise/>} />
+        <Route path="/auth" exact element={<Register/>} />
+        <Route path="/login" exact element={<Login/>} />
       </Routes>
       <Footer/>
       </BrowserRouter>          
