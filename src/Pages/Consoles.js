@@ -8,13 +8,13 @@ function Consoles () {
                 <CarouselBox /> 
 
                 <div className="page-container">
-                    <h1 className="page-title">5 самых ожидаемых игр 2022 года</h1>
+                    <h1 className="page-title">5 most anticipated games of 2022</h1>
 
                     {/* --------------- 1 ----------------*/}
                     <div className='bmargin-80'>
                         <h2 className="dark-text">God of War</h2>
-                        <h3 className="dark-text">Дата выхода: 14 января</h3>
-                        <h3 className="dark-text">Платформа: PC</h3>
+                        <h3 className="dark-text">Release date: January 14</h3>
+                        <h3 className="dark-text">Platforms: PC</h3>
                         <div className='container-margins'>
                             <ReactPlayer url="https://youtu.be/u9wM2Zdeloc"/>
                         </div>
@@ -26,8 +26,8 @@ function Consoles () {
                     {/* --------------- 2 ----------------*/}
                     <div className='bmargin-80'>
                         <h2 className="dark-text">Uncharted: Legacy of Thieves Collection</h2>
-                        <h3 className="dark-text">Дата выхода: 28 января — PS 5, 2022 год — PC</h3>
-                        <h3 className="dark-text">Платформы: PlayStation 5, PC</h3>
+                        <h3 className="dark-text">Release date: January 28 — PS 5, April 14 — PC</h3>
+                        <h3 className="dark-text">Platforms: PlayStation 5, PC</h3>
                         <div className='container-margins'>
                             <ReactPlayer url="https://youtu.be/QyJ7sRru7LM"/>
                         </div>
@@ -39,8 +39,8 @@ function Consoles () {
                     {/* --------------- 3 ----------------*/}
                     <div className='bmargin-80'>
                         <h2 className="dark-text">Sifu</h2>
-                        <h3 className="dark-text">Дата выхода: 8 февраля</h3>
-                        <h3 className="dark-text">Платформы: PlayStation 5, Xbox Series X/S, PlayStation 4, Xbox One, Switch, PC</h3>
+                        <h3 className="dark-text">Release date: February 8</h3>
+                        <h3 className="dark-text">Platforms: PlayStation 5, Xbox Series X/S, PlayStation 4, Xbox One, Switch, PC</h3>
                         <div className='container-margins'>
                             <ReactPlayer url="https://youtu.be/NVBDTVaychw"/>
                         </div>
@@ -52,8 +52,8 @@ function Consoles () {
                     {/* --------------- 4 ----------------*/}
                     <div className='bmargin-80'>
                         <h2 className="dark-text">Horizon Forbidden West</h2>
-                        <h3 className="dark-text">Дата выхода: 18 февраля</h3>
-                        <h3 className="dark-text">Платформы: PlayStation 5, PlayStation 4</h3>
+                        <h3 className="dark-text">Release date: February 18</h3>
+                        <h3 className="dark-text">Platforms: PlayStation 5, PlayStation 4</h3>
                         <div className='container-margins'>
                             <ReactPlayer url="https://youtu.be/1Vo-be7UEFc"/>
                         </div>
@@ -65,8 +65,8 @@ function Consoles () {
                     {/* --------------- 5 ----------------*/}
                     <div className='bmargin-80'>
                         <h2 className="dark-text">Weird West</h2>
-                        <h3 className="dark-text">Дата выхода: 31 марта</h3>
-                        <h3 className="dark-text">Платформы: PlayStation 5, Xbox Series X/S, PlayStation 4, Xbox One, PC</h3>
+                        <h3 className="dark-text">Release date: March 31</h3>
+                        <h3 className="dark-text">Platforms: PlayStation 5, Xbox Series X/S, PlayStation 4, Xbox One, PC</h3>
                         <div className='container-margins'>
                             <ReactPlayer url="https://youtu.be/0NS3lzv0Nw4"/>
                         </div>
